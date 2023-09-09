@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #272727;
+}
+
+#app {
+  width: 100%;
+}
+
+#app > h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#app > h2 {
+  text-align: center;
+  margin-top: 16px;
+  color: #0056b3;
+}
+
+#app ul{
+  list-style: none;
+}
+
+#app li {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 50%;
+  margin: 50px auto 32px auto;
+  padding: 24px 32px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+  color: #0056b3;
+}
+
+#app li.fav {
+
+  background-color: olivedrab;
+  color: #ebebeb;
+}
+
+#app li div.img{
+  width: 40%;
+  text-align: center;
+}
+#app li div.img img{
+  width: 50%;
+  border-radius:4px;
+}
+#app div.txt{
+width: 50%;
+}
+
+#app div.txt p{
+  margin-bottom: 14px;
+
+  font-size: 14px;
+}
+
+#app li p span{
+color: #272727;
+font-weight: bold;
+}
+
+#app div div.btn,
+#app .btnSh {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#app .loader {
+  text-align: center;
+}
+
+#app .loader img {
+  width: 100px;
+  margin-top: 12px;
+}
+
+#app hr {
+  margin: 16px auto ;
+  width: 80%;
+}
+
+#app .box {
+  width: 50%;
+  margin: 50px auto;
+  padding: 50px 32px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
